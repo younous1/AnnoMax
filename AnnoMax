@@ -1,0 +1,10 @@
+program AnnoMax;
+
+uses UnitDeDebutDeParti, GestionEcran, titre;
+
+begin
+   changerTailleConsole(200,60);
+   write_titre();
+   effacerecran();
+   ConnectOuQuit();
+end.           
